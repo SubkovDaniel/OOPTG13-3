@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLState</id><coordinates><x>290</x><y>180</y><w>190</w><h>80</h></coordinates><panel_attributes>Rot
+-
+-Gebe Zustand auf der K. aus
+-Setze Zustand auf RotGelb
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>660</x><y>180</y><w>190</w><h>80</h></coordinates><panel_attributes>RotGelb
+-
+-Gebe Zustand auf der K. aus
+-Setze Zustand auf Gruen
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>290</x><y>350</y><w>190</w><h>80</h></coordinates><panel_attributes>Gelb
+-
+-Gebe Zustand auf der K. aus
+-Setze Zustand auf Rot
+bg=yellow
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>660</x><y>350</y><w>190</w><h>80</h></coordinates><panel_attributes>Gruen
+-
+-Gebe Zustand auf der K. aus
+-Setze Zustand auf Gelb
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>210</x><y>200</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>190</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+Zustand = Gruen</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>200</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>250</y><w>130</w><h>120</h></coordinates><panel_attributes>lt=-&gt;
+Zustand = RotGelb</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>360</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+Zustand = Gelb</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>250</y><w>110</w><h>120</h></coordinates><panel_attributes>lt=-&gt;
+Zustand = Rot</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element></diagram>
