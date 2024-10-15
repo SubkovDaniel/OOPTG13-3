@@ -1,0 +1,17 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>150</y><w>280</w><h>190</h></coordinates><panel_attributes>Person &lt;&lt;abstract&gt;&gt;
+-
+&lt;&lt;Objektvariablen&gt;&gt;
+-name:Text 
+-vorname:Text 
+-
+&lt;&lt;Konstruktor&gt;&gt; 
++Person(name:Text, vorname:Text) 
+
+&lt;&lt;Methoden&gt;&gt; 
++anmelden(name:Text, kennwort:Text):boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>150</y><w>210</w><h>190</h></coordinates><panel_attributes>Lehrer
+-
+&lt;&lt;Methoden&gt;&gt;
++anmelden(name:Text, kennwort:Text):boolean
+
+&lt;&lt;Konstruktor&gt;&gt;
++Lehrer(name:Text, vorname:Text) </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>230</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;160;10</additional_attributes></element></diagram>
